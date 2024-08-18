@@ -7,23 +7,12 @@
 .DS_Store
 Thumbs.db
 
-# Go 特有のファイル
-/go.sum
-/go.mod
-/vendor/
-
 # gqlgen で生成されるファイル
 /schema.resolvers.go
 /graph/model/models_gen.go
 
 # SQLBoiler で生成されるファイル
 /graph/db/boil_*.go
-
-# データベースファイル
-/mygraphql.db
-
-# シェルスクリプトの実行ファイル
-/setup.sh
 
 # IDE やエディタ特有のファイル
 .vscode/
